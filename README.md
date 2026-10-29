@@ -1,8 +1,6 @@
 # Emotion Analysis from Video
 
-Detect each face's emotion from a video/webcam, save the emotional and temporal information for analysis. Seven detected emotions: Angry, Disgust, Fear, Happy, Neutral, Sad, and Surprise.
-
----
+Detect each face's emotion from a video/webcam, save the emotional and temporal information for analysis. Eight detected emotions: Angry, Contempt, Disgust, Fear, Happy, Neutral, Sad, and Surprise.
 
 ## Prerequisites
 
@@ -12,7 +10,7 @@ Detect each face's emotion from a video/webcam, save the emotional and temporal 
 - Windows SDK
 - C++ CMake tools for Windows
 #### 2. Install CMake, OpenCV 4.x, VS Code with CMake Tools extension.
-#### 3. Configure Environment Variables (Windows):
+#### 3. Configure Environment Variables:
 - Search for "Edit the system environment variables"
 - Click Environment Variables -> Path (in User/System variables) -> Edit -> New
 - Add the path to your OpenCV bin folder (e.g., C:\opencv\build\x64\vc16\bin).
@@ -24,16 +22,12 @@ sudo apt update
 sudo apt install build-essential cmake git pkg-config libopencv-dev libsm6 libxext6 libxrender-dev v4l-utils
 ```
 
----
-
 ## Clone repo:
 
 ```
 git clone https://github.com/KienHCMUS/Emotion-Analysis-from-Video.git
 cd Emotion-Analysis-from-Video
 ```
-
----
 
 ## Build and Run
 
@@ -58,8 +52,6 @@ cmake ..
 make
 ./MyApp --input="path/to/video"
 ```
-
----
 
 ## Result:
 The result will be:
